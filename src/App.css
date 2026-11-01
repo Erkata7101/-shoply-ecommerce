@@ -1,0 +1,89 @@
+
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background:
+    radial-gradient(circle at top left, #35216b, transparent 40%),
+    radial-gradient(circle at bottom right, #25154d, transparent 40%),
+    #111827;
+}
+
+.welcome-card {
+  width: 100%;
+  max-width: 850px;
+  padding: 80px 40px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-label {
+  display: inline-block;
+  color: #c4a5ff;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+
+.welcome-card h1 {
+  color: #ffffff;
+  font-size: clamp(38px, 6vw, 64px);
+  line-height: 1.15;
+  margin-bottom: 22px;
+}
+
+.welcome-card h1 span {
+  color: #a78bfa;
+}
+
+.welcome-card p {
+  max-width: 520px;
+  margin: 0 auto 32px;
+  color: #d1d5db;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.shop-button {
+  background: #7c3aed;
+  color: #ffffff;
+  border: none;
+  padding: 16px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.shop-button:hover {
+  background: #6d28d9;
+  transform: translateY(-3px);
+}
+
+.welcome-footer {
+  margin-top: 55px;
+  color: #9ca3af;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  .welcome-card {
+    padding: 55px 20px;
+  }
+
+  .welcome-card p {
+    font-size: 16px;
+  }
+}
+
+
+
