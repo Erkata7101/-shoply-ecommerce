@@ -1,36 +1,20 @@
 
 
-import './App.css'
-
-function App() {
-  return (
-    <div className="app">
-      <div className="welcome-card">
-        <span className="welcome-label">WELCOME TO YOUR STORE</span>
-
-        <h1>
-          Discover Your
-          <br />
-          <span>Favorite Products.</span>
-        </h1>
-
-        <p>
-          Shop smarter, discover more, and find everything
-          you love in one place.
-        </p>
-
-        <button className="shop-button">
-          Explore Shopping →
-        </button>
-
-        <div className="welcome-footer">
-          Quality Products. Great Prices. Easy Shopping.
-        </div>
-      </div>
-    </div>
-  )
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Categories from './components/Categories'
+import FeaturedProducts from './components/FeaturedProducts'
+import NewArrivals from './components/NewArrivals'
+function App(){
+ return(
+ <div>
+  <Header/>
+      <Hero />
+      <Categories />
+     <FeaturedProducts />
+       <NewArrivals />
+  </div>
+ )
 }
-
 export default App
-
 
